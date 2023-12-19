@@ -1,4 +1,4 @@
-# Garbage_robot
+# Garbage Robot
 Garbage Robot has a name that is Clync. It is a system for cleaning trash on water (rivers, lakes), operating in an autonomous manner that is set up based on where and when the user wants to clean.
 ![Image Product](https://github.com/vinhdevED/Garbage_robot/blob/main/Images/Final%20Product.jpg)
 # Overview
