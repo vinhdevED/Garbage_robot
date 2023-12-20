@@ -36,6 +36,8 @@ We decided to choose ***LoRa*** as the primary wireless communication from End d
 
 # 🌀 System Architecture IOT
 
+![Image LoRa](https://github.com/vinhdevED/Garbage_robot/blob/main/Images/system_architecture.png)
+
 # Overview
 It is a system that uses an automatic balancing module to prevent water drift. In addition, robots use AI to identify waste to pick up trash and move it.
 
