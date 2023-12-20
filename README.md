@@ -25,12 +25,14 @@ We use ***Flutter Framework*** for cross-platform application development for we
 
 ## -Wireless Communication-
 This device operates on water (lakes, rivers) so cannot use Bluetooth, Wifi, Zigbee and other short-range wireless communication technologies. Those types consume more energy so they are not suitable for the operating range of this device.
+
 ![Image LoRa](https://github.com/vinhdevED/Garbage_robot/blob/main/Images/lorawan_flow.png)
+
 >LoRaWAN is a wireless communication technology used for wide-range IoT (Internet of Things) networks (LPWAN - Low-Power Wide-Area Network). LoRaWAN is one of the technologies that provides IoT device connectivity with low power consumption and can serve long communication distances.
 
 >LoRaWAN technology uses the **LoRa (Long Range)** wireless communication protocol to connect IoT devices to network infrastructure through communication gateways.
 
-We decided to choose ***LoRa*** as the primary wireless communication.
+We decided to choose ***LoRa*** as the primary wireless communication from End device to Gateway.
 
 # Overview
 It is a system that uses an automatic balancing module to prevent water drift. In addition, robots use AI to identify waste to pick up trash and move it.
