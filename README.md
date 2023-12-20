@@ -4,7 +4,7 @@
 The problem of plastic waste floating in rivers and lakes is increasing. This leads to water pollution or non-biodegradable plastic waste that will clog and cause loss of aesthetics. Therefore, our team's vision is to design and manufacture a robot that ***automatically*** moves along a route on water. It will be compact so it can be wriggled and collected.
 
 Garbage Robot has a name that is Clync. It is a system for cleaning trash on water (rivers, lakes), operating in an autonomous manner that is set up based on where and when the user wants to clean.
-![Image Product](https://github.com/vinhdevED/Garbage_robot/blob/main/Images/Final%20Product.jpg)
+![Image Product](https://github.com/vinhdevED/Garbage_robot/blob/main/Images/Final_Product.jpg)
 
 # 💻 Technology
 ## -Programming Language-
@@ -25,7 +25,7 @@ We use ***Flutter Framework*** for cross-platform application development for we
 
 ## -Wireless Communication-
 This device operates on water (lakes, rivers) so cannot use Bluetooth, Wifi, Zigbee and other short-range wireless communication technologies. Those types consume more energy so they are not suitable for the operating range of this device.
-
+![Image LoRa](https://github.com/vinhdevED/Garbage_robot/blob/main/Images/lorawan_flow.png)
 >LoRaWAN is a wireless communication technology used for wide-range IoT (Internet of Things) networks (LPWAN - Low-Power Wide-Area Network). LoRaWAN is one of the technologies that provides IoT device connectivity with low power consumption and can serve long communication distances.
 
 >LoRaWAN technology uses the **LoRa (Long Range)** wireless communication protocol to connect IoT devices to network infrastructure through communication gateways.
