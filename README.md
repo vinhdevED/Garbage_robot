@@ -15,11 +15,11 @@ In this project, we develop many different segments with different languages ​
   </a>
 </p>
 
-## -Framework-
+## -Framework and Another-
 We use ***Flutter Framework*** for cross-platform application development for web/android/ios which helps in optimization and better UI development and stability. Express.js simplifies handling HTTP requests and routing management. It is used with ***NodeJS***.
 <p align="center">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=flutter,expressjs" />
+    <img src="https://skillicons.dev/icons?i=flutter,expressjs,mongodb,nodejs" />
   </a>
 </p>
 
