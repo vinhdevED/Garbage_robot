@@ -38,6 +38,26 @@ We decided to choose ***LoRa*** as the primary wireless communication from End d
 
 ![Image LoRa](https://github.com/vinhdevED/Garbage_robot/blob/main/Images/system_architecture.png)
 
+**Overview of System Architecture**
+
+**1. Application Layer**
+  + Showing data to Web/App to track position of Robot moving in the river.
+
+**2. Data Processing Layer**
+  + Taking data from ***The Thing Network Server*** and sending to ***NodeJS server with MongoDB (Local Storage)*** through **MQTT**
+
+**3. Transport Layer**
+  + Transfer data to Gateway Lora through LoRa
+  + Data flow like this [End Device] -> [Gateway] -> [The Thing Network] -> [NodeJS Server]
+    
+**4. Perception Layer**
+   
+   | Type | LoRa RFM95W | GPS NEO 6M | MPU6050 | HMC5883L | BTS7996(Actuator) | Raspberry Pi 4 |
+   | :----: | :----: | :----: | :----: | :----: | :----: | :----: |
+   | **Protocol** | SPI | UART | I2C | I2C | GPIO(PWM) | SPI |
+   | **Voltage** | 1.3-3.3 | 3.3-5.0 | 3.3-5.0 | 3.3-5.0 | 3.3-5.0 | Empty |
+
+
 # Overview
 It is a system that uses an automatic balancing module to prevent water drift. In addition, robots use AI to identify waste to pick up trash and move it.
 
