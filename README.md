@@ -37,8 +37,7 @@ We decided to choose ***LoRa*** as the primary wireless communication from End d
 # 🌀 System Architecture IOT
 
 ![Image LoRa](https://github.com/vinhdevED/Garbage_robot/blob/main/Images/system_architecture.png)
-
-**Overview of System Architecture**
+<p align="center"><strong>Overview of System Architecture</strong></p>
 
 **1. Application Layer**
   + Showing data to Web/App to track position of Robot moving in the river.
