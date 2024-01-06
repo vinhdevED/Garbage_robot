@@ -1,4 +1,4 @@
-<h1 align="center">⚡ Garbage Robot ⚡</h1>
+<h1 align="center">⚡ Autonomous Garbage Collecting Robot ⚡</h1>
 
 # ✋ Overview 
 The problem of plastic waste floating in rivers and lakes is increasing. This leads to water pollution or non-biodegradable plastic waste that will clog and cause loss of aesthetics. Therefore, our team's vision is to design and manufacture a robot that ***automatically*** moves along a route on water. It will be compact so it can be wriggled and collected.
