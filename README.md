@@ -59,9 +59,21 @@ We decided to choose ***LoRa*** as the primary wireless communication from End d
    | **Protocol** | SPI | UART | I2C | I2C | GPIO(PWM) | SPI |
    | **Voltage** | 1.3-3.3 | 3.3-5.0 | 3.3-5.0 | 3.3-5.0 | 3.3-5.0 | Empty |
 
-# 📓 Instructions on how to make each part 
-## Firmware for MicroController STM32F303C8T6
+# 📣 Development
+## Firmware for MicroController STM32F303RET6
 ## Create Local Server and Database (NodeJS + MongoDB)
+1. Start new project
+   ```
+   npm init
+   ```
+2. Install dependencies
+   ```
+   npm install body-parser, express, mqtt, mongoose, socket.io
+   ```
+   > **mqtt** - MQTT protocol for trasfering and receiving data from Network Server (The Thing Network)
+   
+   > **socket.io** - Using for Real-time application between Server and Application Web/App
+   
 
 
 
