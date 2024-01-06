@@ -23,6 +23,9 @@ We use ***Flutter Framework*** for cross-platform application development for we
   </a>
 </p>
 
+## -MicroController / Embedded Computer-
+Our team uses the **STM32F303RET6** microcontroller to process input data, merge values ​​and filter noise of modules. Additionally, the use of **Raspberry Pi 4** for object (garbage) recognition processing using YOLOv5.
+
 ## -Wireless Communication-
 This device operates on water (lakes, rivers) so cannot use Bluetooth, Wifi, Zigbee and other short-range wireless communication technologies. Those types consume more energy so they are not suitable for the operating range of this device.
 
@@ -56,8 +59,9 @@ We decided to choose ***LoRa*** as the primary wireless communication from End d
    | **Protocol** | SPI | UART | I2C | I2C | GPIO(PWM) | SPI |
    | **Voltage** | 1.3-3.3 | 3.3-5.0 | 3.3-5.0 | 3.3-5.0 | 3.3-5.0 | Empty |
 
+# 📓 Instructions on how to make each part 
+## Firmware for MicroController STM32F303C8T6
+## Create Local Server and Database (NodeJS + MongoDB)
 
-# Overview
-It is a system that uses an automatic balancing module to prevent water drift. In addition, robots use AI to identify waste to pick up trash and move it.
 
 
