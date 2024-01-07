@@ -73,6 +73,19 @@ We decided to choose ***LoRa*** as the primary wireless communication from End d
    > **mqtt** - MQTT protocol for trasfering and receiving data from Network Server (The Thing Network)
    
    > **socket.io** - Using for Real-time application between Server and Application Web/App
+
+   > **mongoose** - Connecting with Database MongoDB Compass in Desktop
+   
+3. Connect Local Server to The Thing Network through MQTT
+  + The Thing Network plays a role - MQTT Broker 
+  + Local Server plays a role - MQTT Client
+    
+  First, declare mqtt variables for mqtt dependencies
+   ```
+   var mqtt = require('mqtt')
+   ```
+5. 
+   
    
 
 
