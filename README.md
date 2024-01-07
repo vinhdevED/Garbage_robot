@@ -62,27 +62,34 @@ We decided to choose ***LoRa*** as the primary wireless communication from End d
 # 📣 Development
 ## Firmware for MicroController STM32F303RET6
 ## Create Local Server and Database (NodeJS + MongoDB)
-1. Start new project
+**1. Start new project**
    ```
    npm init
    ```
-2. Install dependencies
+**2. Install dependencies**
    ```
    npm install body-parser, express, mqtt, mongoose, socket.io
    ```
-   > **mqtt** - MQTT protocol for trasfering and receiving data from Network Server (The Thing Network)
+   > **mqtt** - MQTT protocol for trasfering and receiving data from Network Server (The Thing Network - MQTT Broker)
    
    > **socket.io** - Using for Real-time application between Server and Application Web/App
 
    > **mongoose** - Connecting with Database MongoDB Compass in Desktop
    
-3. Connect Local Server to The Thing Network through MQTT
-  + The Thing Network plays a role - MQTT Broker 
-  + Local Server plays a role - MQTT Client
-    
-  First, declare mqtt variables for mqtt dependencies
+   
+**3. Connect Local Server to The Thing Network through MQTT** 
+  - First, declare mqtt variables for mqtt dependencies
    ```
    var mqtt = require('mqtt')
+   ```
+  - Second, add the appropriate required configurations
+   ```
+   const TTN_BROKER = 'mqtts://nam1.cloud.thethings.industries:8883'
+   const TTN_USERNAME = 'autonomousrobot@autonomousrobot';
+   const TTN_PASSWORD = 'NNSXS.ITEXEECGUFE3TVGKRXNPTRHVP7FMRDXQT3VFDFA.72UEPZWMCLPJOIVBMMKUGJ7UEIZPOH6FWAGI2EWUDUNEAZQUOI2Q';
+    
+   const APP_ID ='autonomousrobot'
+   const DEV_ID ='fuckyoudat'
    ```
 5. 
    
