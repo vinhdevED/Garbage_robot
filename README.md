@@ -91,7 +91,39 @@ We decided to choose ***LoRa*** as the primary wireless communication from End d
    const APP_ID ='autonomousrobot'
    const DEV_ID ='fuckyoudat'
    ```
-5. 
+  - Option contain USERNAME and PASSWORD requirement 
+   ```
+    var options = {
+    username: TTN_USERNAME,
+    password: TTN_PASSWORD,
+    keepalive: 60,
+    reconnectPeriod: 1000,
+    protocolId: 'MQIsdp',
+    protocolVersion: 3,
+    clean: true,
+    encoding: 'utf8'
+    }
+   ```
+  - Connect to MQTT Broker ( The Thing Network )
+   ```
+   var client = mqtt.connect(TTN_BROKER,options);
+   ```
+  - 
+   ```
+   client.on('connect',function(){
+    console.log('-> The Thing Network MQTT Broker Connected <-');
+    /* .......
+       .......
+       TODO: IN HERE
+    */
+    })
+   ```
+
+   ```
+   ```
+
+
+  
    
    
 
