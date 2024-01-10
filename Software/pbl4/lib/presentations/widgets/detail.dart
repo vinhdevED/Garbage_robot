@@ -103,7 +103,7 @@ class _DetailRobotState extends State<DetailRobot> {
                     size: 24,
                   ),
                   label: Text(
-                    '${widget.robot.percentage} m/s',
+                    '${widget.robot.speed} m/s',
                     style: GoogleFonts.montserrat(
                         fontSize: 16,
                         fontWeight: FontWeight.bold,

@@ -67,7 +67,7 @@ class _DashboardPageState extends State<DashboardPage>
 
   void connectAndListen() {
     // Replace with your server's IP and port
-    socket = IO.io('http://10.10.30.140:3000', <String, dynamic>{
+    socket = IO.io('http://192.168.1.6:3000', <String, dynamic>{
       'transports': ['websocket'],
       'autoConnect': false,
     });

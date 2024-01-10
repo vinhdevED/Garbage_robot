@@ -1,0 +1,3 @@
+../Core/Src/geometric.c:17:8:Haversine_Distance	104	static
+../Core/Src/geometric.c:33:8:Azimuth_Angle	104	static
+../Core/Src/geometric.c:49:7:convertRange360	16	static

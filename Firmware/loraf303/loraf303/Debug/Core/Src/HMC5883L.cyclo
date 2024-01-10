@@ -1,0 +1,6 @@
+../Core/Src/HMC5883L.c:13:6:HMC5883L_WriteRegister	1
+../Core/Src/HMC5883L.c:21:9:HMC5883L_ReadRegisters	1
+../Core/Src/HMC5883L.c:31:6:HMC5883L_Init	1
+../Core/Src/HMC5883L.c:50:6:HMC5883L_ReadMagneticField	1
+../Core/Src/HMC5883L.c:63:6:HMC5883L_Calibration	8
+../Core/Src/HMC5883L.c:91:8:HMC5883L_GetHeading	6

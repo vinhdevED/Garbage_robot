@@ -1,0 +1,10 @@
+../Core/Src/moving.c:26:6:STOP	1
+../Core/Src/moving.c:35:6:GO_FORWARD	1
+../Core/Src/moving.c:45:6:TURN_RIGHT	1
+../Core/Src/moving.c:54:6:TURN_LEFT	1
+../Core/Src/moving.c:68:6:arrivePoint	3
+../Core/Src/moving.c:133:6:determineTurnDirection	3
+../Core/Src/moving.c:169:6:rotate	3
+../Core/Src/moving.c:187:5:changeSpeed	3
+../Core/Src/moving.c:198:6:controlSpeed	3
+../Core/Src/moving.c:211:6:driving	2

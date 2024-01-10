@@ -1,0 +1,10 @@
+../Core/Src/moving.c:26:6:STOP	4	static
+../Core/Src/moving.c:35:6:GO_FORWARD	4	static
+../Core/Src/moving.c:45:6:TURN_RIGHT	4	static
+../Core/Src/moving.c:54:6:TURN_LEFT	4	static
+../Core/Src/moving.c:68:6:arrivePoint	24	static
+../Core/Src/moving.c:133:6:determineTurnDirection	40	static
+../Core/Src/moving.c:169:6:rotate	8	static
+../Core/Src/moving.c:187:5:changeSpeed	16	static
+../Core/Src/moving.c:198:6:controlSpeed	24	static
+../Core/Src/moving.c:211:6:driving	8	static
