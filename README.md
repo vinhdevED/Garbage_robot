@@ -108,7 +108,7 @@ We decided to choose ***LoRa*** as the primary wireless communication from End d
    ```
    var client = mqtt.connect(TTN_BROKER,options);
    ```
-  - 
+  - Listen event "connect".
    ```
    client.on('connect',function(){
     console.log('-> The Thing Network MQTT Broker Connected <-');
@@ -118,10 +118,40 @@ We decided to choose ***LoRa*** as the primary wireless communication from End d
     */
     })
    ```
-
+  - Continue 'TODO: IN HERE' - Subscribe to receive uplink message from TTN.
    ```
+    // Subscribe to receive uplink messages
+    const uplinkTopic =`v3/${TTN_USERNAME}/devices/${DEV_ID}/up`
+    client.subscribe(uplinkTopic, (err) => {
+        if (err) {
+        console.error('Error subscribing to TTN:', err);
+        }
+    });
    ```
-
+  - Continue 'TODO: IN HERE' - Subscribe downlink to push from Server to TTN.
+  ```
+    // Định nghĩa topic downlink
+    const downlinkTopic = `v3/${TTN_USERNAME}/devices/${DEV_ID}/down/push`;
+    // Tạo payload
+    const message = {
+      "downlinks": [{
+        "f_port": 3, // Chọn FPort thích hợp
+        "frm_payload":"AQ==" ,
+        "confirmed": true, // Chọn true nếu muốn xác nhận downlink
+        "priority": "HIGHEST" // Mức độ ưu tiên của downlink
+      }]
+    };
+  ```
+ - Handled event "message" when catching.
+  ```
+  client.on('message',function(topic,message){
+      // Handle the incoming message
+      const payload = JSON.parse(message.toString());
+      console.log("Data from TTN: ",payload); 
+      GPSService.gpsFromTTN(payload)
+  
+  })
+  ```
 
   
    
