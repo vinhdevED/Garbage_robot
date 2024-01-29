@@ -160,7 +160,11 @@ URL = "https://api.mapbox.com/styles/v1/treehot68/{mapStyleID}/tiles/256/{z}/{x}
 mapStyleID = Creating Map Project in Map Box, it will give you a link contain 2 important parameters that are Map Style ID and Access Token
 accessToken = Same above
 ```
-  
+The picture below is Dashboard Website for monitoring the position and the information of end device.
+
+![Image LoRa](https://github.com/vinhdevED/Garbage_robot/blob/main/Images/dashboard_web.jpg)
+<p align="center"><strong>Dashboard in Website </strong></p>
+
    
    
 
