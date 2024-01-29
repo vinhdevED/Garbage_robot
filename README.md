@@ -60,7 +60,8 @@ We decided to choose ***LoRa*** as the primary wireless communication from End d
    | **Voltage** | 1.3-3.3 | 3.3-5.0 | 3.3-5.0 | 3.3-5.0 | 3.3-5.0 | Empty |
 
 # 📣 Development
-## Firmware for MicroController STM32F303RET6
+## Firmware for Microcontroller STM32F303RET6
+Use Interrupts and Asynchronous - Develop an algorithm that follows point coordinates in a point list
 ## Create Local Server and Database (NodeJS + MongoDB)
 **1. Start new project**
    ```
