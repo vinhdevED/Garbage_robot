@@ -39,7 +39,7 @@ We decided to choose ***LoRa*** as the primary wireless communication from End d
 
 # 🌀 System Architecture IOT
 
-![Image LoRa](https://github.com/vinhdevED/Garbage_robot/blob/main/Images/system_architecture.png)
+![Image LoRa](https://github.com/vinhdevED/Garbage_robot/blob/main/Images/system_architecture1.jpg)
 <p align="center"><strong>Overview of System Architecture</strong></p>
 
 **1. Application Layer**
@@ -154,7 +154,12 @@ Use Interrupts and Asynchronous - Develop an algorithm that follows point coordi
   })
   ```
 ## Application for User to monitor and control
-Developing application using Flutter (Cross-platform for Web/App) and intergrating **Map API of MapBox Service** 
+Developing application using Flutter (Cross-platform for Web/App) and intergrating **Map API of MapBox Service**. I guide for embedding url link to Map package **Flutter Map**.
+```
+URL = "https://api.mapbox.com/styles/v1/treehot68/{mapStyleID}/tiles/256/{z}/{x}/{y}@2x?access_token={accessToken}"
+mapStyleID = Creating Map Project in Map Box, it will give you a link contain 2 important parameters that are Map Style ID and Access Token
+accessToken = Same above
+```
   
    
    
