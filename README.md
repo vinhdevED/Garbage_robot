@@ -60,6 +60,11 @@ We decided to choose ***LoRa*** as the primary wireless communication from End d
    | **Voltage** | 1.3-3.3 | 3.3-5.0 | 3.3-5.0 | 3.3-5.0 | 3.3-5.0 | Empty |
 
 # 📣 Development
+## Hardware Connection
+<div align="center">
+  <img src="https://github.com/vinhdevED/Garbage_robot/blob/main/Images/components_connection.png" alt="Hardware Connection" width="800"/>
+</div> 
+
 ## Firmware for Microcontroller STM32F303RET6
 Use Interrupts and Asynchronous - Develop an algorithm that follows point coordinates in a point list
 ## Create Local Server and Database (NodeJS + MongoDB)
@@ -160,9 +165,16 @@ URL = "https://api.mapbox.com/styles/v1/treehot68/{mapStyleID}/tiles/256/{z}/{x}
 mapStyleID = Creating Map Project in Map Box, it will give you a link contain 2 important parameters that are Map Style ID and Access Token
 accessToken = Same above
 ```
+Before showing the important information into the Website, The Thing Network platform must receive package data from the Gateway. After that, it is transfered to NodeJS Server to handle and choose the pivatol data through MQTT protocol.
+<div align="center">
+  <img src="https://github.com/vinhdevED/Garbage_robot/blob/main/Images/package_data.png" alt="Package Data" width="800"/>
+</div> 
+
 The picture below is Dashboard Website for monitoring the position and the information of end device.
 
-![Image LoRa](https://github.com/vinhdevED/Garbage_robot/blob/main/Images/dashboard_web.jpg)
+<div align="center">
+  <img src="https://github.com/vinhdevED/Garbage_robot/blob/main/Images/dashboard_web.jpg" alt="Dashboard Website" width="800"/>
+</div> 
 <p align="center"><strong>Dashboard in Website </strong></p>
 
    
